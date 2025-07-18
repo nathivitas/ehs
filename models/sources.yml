@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: dbt_ncaraballo
+    database: ehs
+    tables:
+      - name: raw_events
