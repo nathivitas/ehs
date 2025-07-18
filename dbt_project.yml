@@ -36,6 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  ehs:
+  my_new_project:
     staging:
       +materialized: table
+      +schema: dbt_ncaraballo
